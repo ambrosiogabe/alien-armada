@@ -1,0 +1,33 @@
+@font-face {
+	font-family: AlienArmada;
+	src: url("../fonts/emulogic.ttf")
+}
+
+* {
+	font-family: AlienArmada;
+	background-color: gray;
+}
+
+div {
+	position: relative;
+	margin: 0px auto;
+	width: 550px;
+	height: 600px;
+	background: -webkit-linear-gradient(top, green 60%, black);
+	border-radius: 10px;
+	border: black solid 5px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+canvas {
+	position: absolute;
+	margin-left: 35px;
+	border: black dashed 3px;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+	background-color: green;
+}
